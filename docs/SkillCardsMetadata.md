@@ -1,0 +1,22 @@
+
+
+# SkillCardsMetadata
+
+The metadata assigned to a using for Box skills.
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**$canEdit** | **Boolean** | Whether the user can edit this metadata |  [optional] |
+|**$id** | **UUID** | A UUID to identify the metadata object |  [optional] |
+|**$parent** | **String** | An ID for the parent folder |  [optional] |
+|**$scope** | **String** | An ID for the scope in which this template has been applied |  [optional] |
+|**$template** | **String** | The name of the template |  [optional] |
+|**$type** | **String** | A unique identifier for the \&quot;type\&quot; of this instance. This is an internal system property and should not be used by a client application. |  [optional] |
+|**$typeVersion** | **Integer** | The last-known version of the template of the object. This is an internal system property and should not be used by a client application. |  [optional] |
+|**$version** | **Integer** | The version of the metadata object. Starts at 0 and increases every time a user-defined property is modified. |  [optional] |
+|**cards** | **List&lt;Object&gt;** | A list of Box Skill cards that have been applied to this file. |  [optional] |
+
+
+
