@@ -14,7 +14,6 @@ import com.konfigthis.client.api.DomainRestrictionsForCollaborationsApi;
 import com.konfigthis.client.api.DownloadsApi;
 import com.konfigthis.client.api.EmailAliasesApi;
 import com.konfigthis.client.api.EventsApi;
-import com.konfigthis.client.api.FileActivitiesApi;
 import com.konfigthis.client.api.FileRequestsApi;
 import com.konfigthis.client.api.FileVersionLegalHoldsApi;
 import com.konfigthis.client.api.FileVersionRetentionsApi;
@@ -86,7 +85,6 @@ public class Box {
     public final DownloadsApi downloads;
     public final EmailAliasesApi emailAliases;
     public final EventsApi events;
-    public final FileActivitiesApi fileActivities;
     public final FileRequestsApi fileRequests;
     public final FileVersionLegalHoldsApi fileVersionLegalHolds;
     public final FileVersionRetentionsApi fileVersionRetentions;
@@ -162,7 +160,6 @@ public class Box {
         this.downloads = new DownloadsApi(this.apiClient);
         this.emailAliases = new EmailAliasesApi(this.apiClient);
         this.events = new EventsApi(this.apiClient);
-        this.fileActivities = new FileActivitiesApi(this.apiClient);
         this.fileRequests = new FileRequestsApi(this.apiClient);
         this.fileVersionLegalHolds = new FileVersionLegalHoldsApi(this.apiClient);
         this.fileVersionRetentions = new FileVersionRetentionsApi(this.apiClient);
